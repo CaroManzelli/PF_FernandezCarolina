@@ -1,0 +1,59 @@
+/* Header */
+header {
+    background-color: rgb(9, 9, 100);
+    padding: 0.5rem;
+    width: 100%;
+}
+/* Logo */
+header a,
+.logo__text {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+}
+
+
+.logo__img {
+    background: no-repeat;
+    width: 3rem;
+    height: 3rem;
+    text-indent: -9999px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    padding: 0.5rem;
+    position: fixed;
+}
+/* Navbar items */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* cambiar color cuando pasa el cursor */
+li a:hover {
+    background-color: #111;
+}

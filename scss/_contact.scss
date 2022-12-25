@@ -1,0 +1,28 @@
+/*Contacto*/
+.contact {
+    background-color: rgb(9, 9, 100);
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: block;
+}
+.contact__main{
+    display: grid;
+    place-content: center;
+}
+
+input {
+    border-radius: 5px;
+    padding: 0.3rem;
+    margin: 0.3rem;
+    font-size: 1rem;
+}
+
+textarea {
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+button {
+    padding: 2px;
+    font: 1em sans-serif;
+}
