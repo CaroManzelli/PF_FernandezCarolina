@@ -15,31 +15,33 @@ html {
 
 /*index*/
 .index {
-    background-image: radial-gradient(circle at 1.8% 50%, #e020c6 0, #cc18cd 16.67%, #b515d3 33.33%, #9816d9 50%, #741ddf 66.67%, #3c25e4 83.33%, #002de9 100%);
+    background-color: rgb(9, 9, 100) ; 
+    background-repeat: no-repeat;
     color: #fff;
 }
 
 /*about*/
-.aboutUs{
+.aboutUs {
     background-image: radial-gradient(circle at 1.8% 50%, #e020c6 0, #cc18cd 16.67%, #b515d3 33.33%, #9816d9 50%, #741ddf 66.67%, #3c25e4 83.33%, #002de9 100%);
 }
 
-.aboutUs__img{
+.aboutUs__img {
     size-adjust: 2rem;
 }
 
 
 /*designs*/
-.desings{
+.desings {
     background-image: radial-gradient(circle at 1.8% 50%, #e020c6 0, #cc18cd 16.67%, #b515d3 33.33%, #9816d9 50%, #741ddf 66.67%, #3c25e4 83.33%, #002de9 100%);
 
 
 }
 
-.desings__title{
+.desings__title {
     color: #fff;
     align-self: center;
 }
-.card{
+
+.card {
     background-color: rgb(9, 9, 100) !important;
 }

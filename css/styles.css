@@ -80,20 +80,6 @@ table img {
 .info dd {
   padding-left: 1rem; }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
-
-html {
-  scroll-behavior: smooth; }
-
-/*index*/
-.index {
-  background-image: radial-gradient(circle at 1.8% 50%, #e020c6 0, #cc18cd 16.67%, #b515d3 33.33%, #9816d9 50%, #741ddf 66.67%, #3c25e4 83.33%, #002de9 100%);
-  color: #fff; }
-
 /*Contacto*/
 .contact {
   background-color: #090964;
@@ -118,6 +104,21 @@ textarea {
 button {
   padding: 2px;
   font: 1em sans-serif; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+html {
+  scroll-behavior: smooth; }
+
+/*index*/
+.index {
+  background-color: #090964;
+  background-repeat: no-repeat;
+  color: #fff; }
 
 /*about*/
 .aboutUs {
