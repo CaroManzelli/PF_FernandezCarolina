@@ -88,12 +88,17 @@ table img {
 .contact {
   background-color: #090964;
   color: #fff;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
   display: block; }
 
 .contact__main {
-  display: grid;
-  place-content: center; }
+  padding: 0;
+  width: 40%;
+  display: inline-flex; }
+
+.contact__main__img {
+  position: relative;
+  display: inline; }
 
 input {
   border-radius: 5px;
