@@ -16,7 +16,10 @@
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Animations-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <!-- Title -->
@@ -29,31 +32,29 @@
 
 <body class="index">
     <!-- Header -->
-    <header class="logo navbar-brand">
-        <a href="#">
-            <img src="assets/logo.png" class="logo__img" alt="Logo de la empresa">
-            <p class="logo__text">Rockster</p>
-        </a>
+    <header>
+        <nav class="menu">
+            <div class="d-flex justify-content-around">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logo.png" width="30" height="24" alt="Logo de la empresa">
+                    <label class="logo__text">
+                        Rockster
+                    </label>
+                  </a>
+            </div>
+         
+            <ul class="menu_items">
+                <li class="active"><a href="#">Inicio</a></li>
+                <li><a href="./pages/about.html">Sobre Nosotros</a></li>
+                <li><a href="./pages/designs.html">Diseños</a></li>
+                <li><a href="./pages/faq.html">Preguntas Frecuentes</a></li>
+                <li><a href="./pages/contact.html">Contacto</a></li>
+            </ul>
+            <span class="btn_menu">
+                <i class="fa fa-bars"></i>
+            </span>
+        </nav>
     </header>
-    <nav>
-        <ul>
-            <li class="nav-item">
-                <a href="#home" id="nav-link">Inicio</a>
-            </li>
-            <li class="nav-item">
-                <a href="pages/about.html" id="nav-link">Sobre nosotros</a>
-            </li>
-            <li class="nav-item">
-                <a href="./pages/designs.html" id="nav-link">Diseños</a>
-            </li>
-            <li class="nav-item">
-                <a href="./pages/faq.html" id="nav-link">Preguntas frecuentes</a>
-            </li>
-            <li class="nav-item">
-                <a href="./pages/contact.html" id="nav-link">Contacto</a>
-            </li>
-        </ul>
-    </nav>
 
     <main class="container-fluid">
         <section class="row row-cols-1 row-cols-md-2 mb-5">
@@ -61,22 +62,24 @@
                 <h2 class="animate__animated animate__backInLeft">Somos el futuro del diseño de hogares flexibles, te
                     acompañamos en este sueño</h2>
             </div>
-            <div class="col justify-content-end img-fluid">
+            <div class="index__img col justify-content-end img-fluid">
                 <img src="./assets/img/houses/main-house-3.jpg" class="animate__animated animate__backInRight"
                     alt="casa container">
             </div>
         </section>
         <section class="row  row-cols-1 row-cols-md-2 mb-4 animate__animated animate__backInUp">
-            <div class="col justify-content-start img-fluid">
+            <div class="index__img col justify-content-start img-fluid">
                 <img src="./assets/img/houses/main-house-2.jpg" alt="">
             </div>
             <div class="col justify-content-end">
-                <p class="fs-5">Ofrecemos la posibilidad de que nuestros clientes cuenten con la facilidad de acceder a su vivienda a
+                <p class="fs-5">Ofrecemos la posibilidad de que nuestros clientes cuenten con la facilidad de acceder a
+                    su vivienda a
                     través de un plan de financiación.</p>
             </div>
-        
+
         </section>
-        <p class="row justify-content-center fs-6 animate__animated animate__backInUp">Facil. Confiable. Seguro.Cumplí el sueño de la casa propia
+        <p class="row justify-content-center fs-6 animate__animated animate__backInUp">Facil. Confiable. Seguro.Cumplí
+            el sueño de la casa propia
         </p><br>
     </main>
 
@@ -88,6 +91,7 @@
     </footer>
 
     <!--JS-->
+    <script src="./scripts/index.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
