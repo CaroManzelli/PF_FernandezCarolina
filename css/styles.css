@@ -262,4 +262,5 @@ html {
 .desings__button:hover {
   background-color: #a0853c;
   border-color: #887540;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  transition: 1.5s; }
